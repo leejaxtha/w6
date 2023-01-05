@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Sevillana&display=swap');
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 50%;
+  background-color: #6D9773;
+  padding: 4%;
+  color: #ffffff;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 62px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 60px;
+}
+
+figure {
+  width: 50%;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}
+.main{
+    padding-top: 120px;
+    font-size: 30px;
+}
